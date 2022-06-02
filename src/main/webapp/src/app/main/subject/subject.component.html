@@ -2,16 +2,16 @@
   <h3>Chats</h3>
   <p>Select a chat room to join</p>
   <section class="list-group mb-3">
-    <div class="w-100 list-group-item list-group-item-action"
+    <div class="w-100 d-flex justify-content-between list-group-item list-group-item-action"
          *ngFor="let subject of subjects">
-      <a class="d-flex justify-content-between text-decoration-none"
+      <a class="w-100 text-decoration-none"
          [href]="'chat/'+subject.id"
          (click)="navigateToChat(subject.id)">
         <span> {{subject.title}}</span>
-        <button class="btn btn-secondary ml-2" (click)="onDeleteSubject(subject.id)">
-          <fa-icon [icon]="faTrash"></fa-icon>
-        </button>
       </a>
+      <button class="btn btn-secondary ml-2" (click)="onDeleteSubject(subject.id)">
+        <fa-icon [icon]="faTrash"></fa-icon>
+      </button>
     </div>
     <ng-container *ngIf="createSubjectViewVisible">
       <form class="list-group-item" #subjectForm="ngForm" (ngSubmit)="onCreateSubject(subjectForm.value)">
