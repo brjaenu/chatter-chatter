@@ -2,8 +2,16 @@
 
 This project was created in the module webeC in 2022. Authors: Sven Ziörjen and Jan Zimmermann
 
-# Requirements
+# Test Users for ChatterChatter-App
+### Admin
+- Username: admin
+- Password: admin
 
+### User
+- Username: user
+- Password: user
+
+# Requirements
 1. Maven must be installed and be accessible through the terminal/cmd.
 
 ### Execute as terminal application on MacOSX / Unix systems
@@ -29,7 +37,7 @@ If results in errors, please increase the file permissions of the scripts
 ### Run e2e Tests with IntelliJ
 
 1. run cmd ```mvn clean install``` in root directory, if not already executed.
-2. Make sure the spring-boot run-configuration is available (ChatterChatterApplication)
+2. Make sure the spring-boot run-configuration is available (ChatterChatterApplication), but do not run it!
 3. Execute frontend startup-script
     1. On MacOSX: ```./startup-frontend.sh```
     2. On Windows: ```./startup-frontend.cmd```
@@ -40,7 +48,7 @@ If results in errors, please increase the file permissions of the scripts
 
 ## Permission is not set
 
-If the script-execution results in errors, please increase the permissions of the failing scripts.
+1. If the script-execution results in errors, please increase the permissions of the failing scripts.
 
 
 
