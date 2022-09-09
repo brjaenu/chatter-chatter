@@ -1,6 +1,6 @@
 # Chatter-Chatter setup
 
-This project was created in the module webeC in 2022. Authors: Sven Ziörjen and Jan Zimmermann
+This project was created in the module webeC in 2022. Authors: [Sven Zioerjen](https://github.com/zioerjens) and [Jan Zimmermann](https://github.com/brjaenu)
 
 # Test Users for ChatterChatter-App
 ### Admin
@@ -29,8 +29,8 @@ This project was created in the module webeC in 2022. Authors: Sven Ziörjen and
 2. Make sure the spring-boot run-configuration is available (ChatterChatterApplication)
 3. Run the spring-boot run configurations
 4. Execute frontend startup-script
-    1. On MacOSX: ```./startup-frontend.sh```
-    2. On Windows: ```./startup-frontend.cmd```
+   1. On MacOSX: ```./startup-frontend.sh```
+   2. On Windows: ```./startup-frontend.cmd```
 
 If results in errors, please increase the file permissions of the scripts
 
@@ -39,8 +39,8 @@ If results in errors, please increase the file permissions of the scripts
 1. run cmd ```mvn clean install``` in root directory, if not already executed.
 2. Make sure the spring-boot run-configuration is available (ChatterChatterApplication), but do not run it!
 3. Execute frontend startup-script
-    1. On MacOSX: ```./startup-frontend.sh```
-    2. On Windows: ```./startup-frontend.cmd```
+   1. On MacOSX: ```./startup-frontend.sh```
+   2. On Windows: ```./startup-frontend.cmd```
 4. Go to directory: ```src/test/java/com/example/chatterchatter/e2e```
 5. Run the tests (LoginPageE2E, RegisterPageE2E)
 
@@ -49,6 +49,3 @@ If results in errors, please increase the file permissions of the scripts
 ## Permission is not set
 
 1. If the script-execution results in errors, please increase the permissions of the failing scripts.
-
-
-
